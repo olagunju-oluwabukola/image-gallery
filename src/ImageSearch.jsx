@@ -6,7 +6,7 @@ const [text, setText] =useState('')
 const onSubmit = (e) => {
     e.preventDefault();
 
-    searchText(term)
+    searchText(text)
 }
  
   return (
